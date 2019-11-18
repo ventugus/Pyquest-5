@@ -72,10 +72,10 @@ while (inicia == 's'):
   from random import choice
   temas = ['Frutas:','Animais','Países']
   dicionario = [['maça', 'banana','laranja','ameixa','goiaba','amora','abacate','abacaxi'], ['amarelo', 'azul','vermelho','laranja','preto','rosa','lilas','vinho','marrom'], ['leao','girafa','macaco','cachorro','gato','tigre'], ['brasil','grecia','espanha','chile','inglaterra','alemanha','israel']]
-  print('Temas de Jogo')
+  print('\nTemas de Jogo')
   for x in range(len(temas)):
     print('{} {}'.format(x+1, temas[x]))
-  escolha = int(input('Escolha um tema: '))
+  escolha = int(input('\nEscolha um tema: '))
   word = choice(dicionario[escolha - 1])
 
   temp=[]
